@@ -19,6 +19,18 @@ with column1:
 with column3:
         st.write('''<div class="card mb-4 shadow-sm">
         <img src="https://source.unsplash.com/400x300/?nature,students" class="d-block w-100" alt="...">''',unsafe_allow_html=True)
+        
+hide_streamlit_style = """
+<style>
+#MainMenu{visibility:hidden}
+footer{visibility:hidden}
+Manageapp{visibility:hidden}
+deploy{visibility:hidden}
+
+</style>
+
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)        
    
 
 

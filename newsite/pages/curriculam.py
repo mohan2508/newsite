@@ -17,4 +17,15 @@ with column2:
             attention to each of our students, whether through our textbooks or 
             hands-on training. Our goal is to help every student to expose in their 
             subjects, achieve better scores.''')            
-      
+ 
+hide_streamlit_style = """
+<style>
+#MainMenu{visibility:hidden}
+footer{visibility:hidden}
+Manageapp{visibility:hidden}
+deploy{visibility:hidden}
+
+</style>
+
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 

@@ -26,4 +26,16 @@ with column2:
             If you are looking for the best Maths coaching classes in Kelambakkam,MohanClasses is the top choice.  
             Customized study plans, and personalized attention, MohanClasseshelps students improve their Math skills quickly and effectively.''')    
     
+hide_streamlit_style = """
+<style>
+#MainMenu{visibility:hidden}
+footer{visibility:hidden}
+Manageapp{visibility:hidden}
+deploy{visibility:hidden}
 
+</style>
+
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)        
+        
+   

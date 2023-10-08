@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.write('''<div class="card mb-4 shadow-sm">
-        <img src="https://source.unsplash.com/1200x200/?nature,sunrise" class="d-block w-100" alt="...">''',unsafe_allow_html=True)
+        <img src="https://source.unsplash.com/1200x200/?nature,students" class="d-block w-100" alt="...">''',unsafe_allow_html=True)
 
 column1,column2 = st.columns(2)
 with column1:
@@ -16,3 +16,15 @@ with column2:
  
             We provide personalized attention to each student to help them achieve their full potential. 
             Join us today and make on a journey of academic excellence''') 
+    
+hide_streamlit_style = """
+<style>
+#MainMenu{visibility:hidden}
+footer{visibility:hidden}
+Manageapp{visibility:hidden}
+deploy{visibility:hidden}
+
+</style>
+
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)  

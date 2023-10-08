@@ -75,3 +75,15 @@ else:
         st.markdown("[Probability Part_I...............](https://www.youtube.com/watch?v=1gSAdx9GYXY&t=10s)")
         st.markdown("[Probability Part_II...............](https://www.youtube.com/watch?v=FIJns01KDKA)")
        
+
+hide_streamlit_style = """
+<style>
+#MainMenu{visibility:hidden}
+footer{visibility:hidden}
+Manageapp{visibility:hidden}
+deploy{visibility:hidden}
+
+</style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)        
+      
