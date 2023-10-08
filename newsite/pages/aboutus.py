@@ -30,8 +30,10 @@ hide_streamlit_style = """
 <style>
 #MainMenu{visibility:hidden}
 footer{visibility:hidden}
-Manageapp{visibility:hidden}
+Manage app{visibility:hidden}
 deploy{visibility:hidden}
+Header{visibility:hidden}
+footer{visibility:hidden}
 
 </style>
 
